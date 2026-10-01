@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GIVSTORE - Product Details</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="header">
+    <div class="container nav">
+        <a href="index.html" class="logo">
+            <span class="logo-icon">G</span>
+            <span class="logo-text"><span class="logo-giv">GIV</span>STORE</span>
+        </a>
+
+        <nav class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="products.html">Shop</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+        <a href="products.html" class="mobile-search" aria-label="Search products">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="11" cy="11" r="6.5"></circle><path d="m16 16 4.5 4.5"></path></svg>
+        </a>
+
+        <div class="nav-actions">
+            <a href="products.html" class="icon-btn" aria-label="Search">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"></circle><path d="M21 21l-4.3-4.3"></path></svg>
+            </a>
+            <a href="cart.html" class="icon-btn cart-icon-btn" aria-label="Cart">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"></circle><circle cx="19" cy="21" r="1"></circle><path d="M2.5 3h2l2.3 12.4a2 2 0 0 0 2 1.6h8.4a2 2 0 0 0 2-1.6L21 8H6"></path></svg>
+                <span class="cart-count">0</span>
+            </a>
+            <a href="#" class="icon-btn" aria-label="Account">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"></circle><path d="M4 20c0-3.5 3.6-6 8-6s8 2.5 8 6"></path></svg>
+            </a>
+        </div>
+        <button class="mobile-menu-toggle" type="button" aria-label="Open menu" aria-expanded="false">
+            <span></span>
+        </button>
+    </div>
+</header>
+
+<main>
+
+<section class="product-detail container">
+
+    <div class="detail-image">
+        <img id="detailProductImage" src="images/products/sneakers.png" alt="Classic Sneakers">
+    </div>
+
+    <div class="detail-content">
+        <span class="category" id="detailCategory">Shoes & Footwear</span>
+        <h1 id="detailName">Classic Sneakers</h1>
+        <div class="rating" id="detailRating">★★★★★ <span>4.8 (120 reviews)</span></div>
+        <h2 id="detailPrice">₱2,499</h2>
+
+        <p class="description" id="detailDescription">A clean and comfortable everyday sneaker designed for casual outfits, daily activities, and everyday use.</p>
+
+        <div class="size-group">
+            <label>Size</label>
+            <div class="size-options" id="sizeOptions"></div>
+        </div>
+
+        <div class="quantity-group">
+            <label for="quantity">Quantity</label>
+            <div class="quantity-control">
+                <button id="minus" type="button">−</button>
+                <input type="number" id="quantity" value="1" min="1">
+                <button id="plus" type="button">+</button>
+            </div>
+        </div>
+
+        <div class="detail-buttons">
+            <button class="btn" id="addProduct" type="button">Add to Cart</button>
+            <button class="btn btn-outline" id="buyNow" type="button">Buy Now</button>
+            <button type="button" class="wishlist-btn" id="wishlistBtn" aria-label="Add to wishlist">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.5s-7.5-4.6-10-9.3C.6 8 2 4.5 5.3 3.7c2-.5 4 .3 5.2 2 .4.5.9 1.2 1.5 1.2s1.1-.7 1.5-1.2c1.2-1.7 3.2-2.5 5.2-2C22 4.5 23.4 8 22 11.2c-2.5 4.7-10 9.3-10 9.3z"></path></svg>
+            </button>
+        </div>
+    </div>
+
+</section>
+
+<section class="container related-section">
+    <div class="section-heading">
+        <div>
+            <p class="section-label">YOU MAY ALSO LIKE</p>
+            <h2>Related Products</h2>
+        </div>
+    </div>
+    <div class="product-grid" id="relatedProducts"></div>
+</section>
+
+</main>
+
+<footer class="footer">
+    <div class="container footer-content">
+        <div>
+            <a href="index.html" class="logo">
+                <span class="logo-icon">G</span>
+                <span class="logo-text"><span class="logo-giv">GIV</span>STORE</span>
+            </a>
+            <p>Quality Products. Better You.</p>
+        </div>
+
+        <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="products.html">Shop</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </div>
+
+        <div class="social-icons">
+            <a href="#" class="social-icon" aria-label="Facebook">f</a>
+            <a href="#" class="social-icon" aria-label="Instagram">IG</a>
+            <a href="#" class="social-icon" aria-label="TikTok">TT</a>
+            <a href="#" class="social-icon" aria-label="YouTube">YT</a>
+            <a href="#" class="social-icon" aria-label="X">X</a>
+        </div>
+    </div>
+
+    <div class="container footer-bottom">
+        <p>© 2026 GIVSTORE. All rights reserved.</p>
+    </div>
+</footer>
+
+<script src="js/products.js"></script>
+<script src="js/product-details.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

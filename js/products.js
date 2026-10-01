@@ -1,0 +1,14 @@
+const GIV_PRODUCTS = [
+    { id: "classic-sneakers", name: "Classic Sneakers", category: "Shoes & Footwear", price: 2499, image: "images/products/sneakers.png", rating: "4.8 (120 reviews)", description: "A clean and comfortable everyday sneaker designed for casual outfits, daily activities, and everyday use.", sizes: ["7", "8", "9", "10", "11"] },
+    { id: "essential-hoodie", name: "Essential Hoodie", category: "Clothing & Fashion", price: 1299, image: "images/products/hoodie.png", rating: "4.7 (98 reviews)", description: "A soft and versatile hoodie made for comfortable everyday wear.", sizes: ["S", "M", "L", "XL"] },
+    { id: "everyday-tshirt", name: "Everyday T-Shirt", category: "Clothing & Fashion", price: 799, image: "images/products/tshirt.png", rating: "4.6 (85 reviews)", description: "A simple everyday t-shirt with a clean fit for casual outfits.", sizes: ["S", "M", "L", "XL"] },
+    { id: "casual-backpack", name: "Casual Backpack", category: "Bags & Accessories", price: 1499, image: "images/products/backpack.png", rating: "4.8 (76 reviews)", description: "A practical backpack with enough space for school, work, and everyday essentials.", sizes: ["Standard"] },
+    { id: "wireless-headphones", name: "Wireless Headphones", category: "Electronic Gadgets", price: 2999, image: "images/products/headphones.png", rating: "4.8 (110 reviews)", description: "Comfortable wireless headphones with clear sound for music, videos, and gaming.", sizes: ["Standard"] },
+    { id: "smartwatch", name: "Smartwatch", category: "Electronic Gadgets", price: 3499, image: "images/products/smartwatch.png", rating: "4.7 (64 reviews)", description: "A modern smartwatch for notifications, daily activity tracking, and convenience.", sizes: ["Standard"] },
+    { id: "gaming-mouse", name: "Gaming Mouse", category: "Electronic Gadgets", price: 1599, image: "images/products/gaming_mouse.png", rating: "4.7 (72 reviews)", description: "A responsive gaming mouse designed for smooth and precise control.", sizes: ["Standard"] },
+    { id: "mechanical-keyboard", name: "Mechanical Keyboard", category: "Electronic Gadgets", price: 2499, image: "images/products/mechanical_keyboard.png", rating: "4.8 (91 reviews)", description: "A mechanical keyboard with a clean design for gaming, school, and work.", sizes: ["Standard"] },
+    { id: "water-bottle", name: "Insulated Water Bottle", category: "Home & Lifestyle", price: 899, image: "images/products/water_bottle.png", rating: "4.6 (58 reviews)", description: "A reusable insulated bottle designed to keep drinks convenient throughout the day.", sizes: ["Standard"] },
+    { id: "travel-shoulder-bag", name: "Travel Shoulder Bag", category: "Bags & Accessories", price: 1199, image: "images/products/backpack.png", rating: "4.6 (61 reviews)", description: "A compact shoulder bag for carrying your everyday travel essentials.", sizes: ["Standard"] }
+];
+
+window.GIV_PRODUCTS = GIV_PRODUCTS;
